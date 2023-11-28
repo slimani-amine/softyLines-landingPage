@@ -1,0 +1,33 @@
+// variables & functions
+@import 'functions';
+@import 'variables';
+@import 'mixins';
+
+
+// base & layout
+@import 'base';
+@import 'breakpoints';
+@import 'grid';
+
+// colors
+@import "colors";
+
+// components (button, card, navbar etc)
+@import 'components/card';
+@import 'components/card2';
+@import 'components/box';
+@import 'components/purplediv';
+@import 'components/button';
+@import 'components/navbar';
+@import 'components/rectangle';
+@import 'components/hero';
+@import 'components/section1';
+@import 'components/section2';
+@import 'components/section3';
+@import 'components/section4';
+@import 'components/section5';
+@import 'components/section6';
+@import 'components/footer';
+
+// utilities (margin, padding, opacity, etc)
+@import 'utilities';

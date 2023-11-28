@@ -1,0 +1,68 @@
+.section4 {
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+    background-color: #fff;
+    padding: 4% 0;
+
+    .section4-title1 {
+        @include title(#3D065F, 22px)
+    }
+
+    .section4-title2 {
+        @include title(#3D065F, 36px)
+    }
+
+    .section4-container {
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .section4-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 6px;
+            width: 30%;
+
+            .section4-card-container {
+                width: 75%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+                .section4-card-container__top-text {
+                    color: #7C1DC9;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 44px;
+                    text-align: start;
+                }
+
+                .section4-card-container__header {
+                    color: #000;
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 50px;
+                    text-align: start;
+                }
+
+                .section4-card-container__description {
+                    color: #575757;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 36px;
+                    text-align: start;
+                }
+            }
+
+
+        }
+    }
+
+
+
+
+}

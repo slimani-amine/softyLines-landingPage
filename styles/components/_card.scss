@@ -1,0 +1,26 @@
+@use 'sass:math';
+
+.card {
+  display: block;
+  padding: $base-padding*3;
+  background: #FFF;
+  box-shadow: 0px 25px 36px -8px rgba(123, 97, 255, 0.402);
+  border-radius: 20px;
+  margin-right: 9%;
+  width: 22%;
+
+  .card-title {
+    font-size: $base-font-size;
+    padding-bottom: $base-padding;
+    font-weight: bold;
+  }
+
+  .card-description {
+    color: #848484;
+    line-height: 30px;
+  }
+
+  .card-body {
+    font-size: $base-font-size;
+  }
+}

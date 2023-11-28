@@ -1,0 +1,48 @@
+
+
+.section1 {
+    margin-top: 4%;
+    margin-left: 10%;
+    
+    .sectopn1-title1 {
+        @include title($third, 22px)
+    }
+
+    .sectopn1-title2 {
+        @include title(black, 36px)
+    }
+
+    .cards {
+        margin-top: 5%;
+        display: flex;
+    }
+
+}
+
+@mixin svg ($top, $left) {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: $top;
+    top: $left;
+}
+
+.svg {
+    background-color: $fourth;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 10%;
+
+    .svg1 {
+        @include svg(20px, 20px)
+    }
+
+    .svg2 {
+        @include svg(28px, 28px)
+    }
+}
+@media (max-width:1200px){
+
+}

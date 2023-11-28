@@ -1,0 +1,40 @@
+// import google font
+@import url('https://fonts.cdnfonts.com/css/mont');
+
+/* reset styles */
+* {
+  color: inherit;
+  margin: 0;
+  
+}
+
+body {
+  font-family: mont;
+  background-color: #F8F7FF;
+  text-transform: capitalize;
+  
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+a,
+li {
+  text-decoration: none;
+  display: flex;
+}
+
+hr {
+  border: 0;
+  border-top: 1px dotted #efefef;
+}
+
+img {
+  max-width: 100%;
+}
+
+.test {
+  color: $primary;
+}
