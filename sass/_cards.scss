@@ -1,0 +1,12 @@
+@mixin card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 1.3rem;
+    padding: 7.5px 7.5px 3rem 7.5px;
+    max-width: 44rem;
+    &:hover {
+        box-shadow: $box-shadow-light;
+        transition: $hover-transition;
+    }
+}

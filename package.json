@@ -1,18 +1,17 @@
 {
-  "name": "softylines-landingpage",
+  "name": "test-html-sass",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compSass": "node-sass sass/main.scss css/index.css --watch"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Amine",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-purgecss": "^5.0.0",
-    "gulp-sass": "^5.1.0",
-    "sass": "^1.69.5"
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1"
   }
 }

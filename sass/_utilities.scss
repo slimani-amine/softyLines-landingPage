@@ -1,0 +1,44 @@
+.container {
+    max-width: 156rem;
+    padding: 0 3rem;
+    margin: 0 auto;
+}
+
+.btn {
+  border-radius: $border-radius-btn;
+  padding: $base-padding $base-padding*2;
+}
+
+
+@mixin section-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+  padding-top: 22px;
+  padding-bottom: 70px;
+  line-height: 1.5;
+
+  &__headings{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &__header {
+          font-family: 'mont-600',sans-serif;
+          color: $md-dark-purple;
+          font-size: $font-md;
+          @media(max-width: $xs-screen) {
+              font-size: $font-sm; 
+          }
+      }
+      &__subheader {
+          font-family: 'mont-700',sans-serif;
+          color: $md-dark-purple;
+          font-size: $font-xxl;
+          @media(max-width: $xs-screen) {
+              font-size: $font-xl;
+          }
+
+      }
+  }
+}
