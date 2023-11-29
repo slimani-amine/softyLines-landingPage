@@ -12,6 +12,5 @@
     "node-sass": "^9.0.0"
   },
   "dependencies": {
-    "jquery": "^3.7.1"
   }
 }
