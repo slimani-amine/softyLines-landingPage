@@ -3,13 +3,15 @@
 //variables
 @import "variables";
 
-//fonts  
-@import 'fonts';
+//fonts
+@import "fonts";
 
 //base styles
 @import "base";
 
 //utilities
+@import "keyframes";
+@import "breakpoints";
 @import "mediaQuearies";
 @import "utilities";
 
@@ -22,5 +24,3 @@
 @import "components/cards";
 @import "components/sections";
 @import "components/footer";
-
-//mediaqueries

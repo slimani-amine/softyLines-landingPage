@@ -1,80 +1,81 @@
 .navbar {
-    .menu-btn {
-      display: none;
+  .menu-btn {
+    display: none;
+  }
+
+  margin: 4rem 0;
+  padding: 1.7rem 0;
+  background-color: $light-purple;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6.7rem;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+    &:hover {
+      cursor: pointer;
     }
-  
-    margin: 4rem 0;
-    padding: 1.7rem 0;
-    background-color: $light-purple;
-  
-    .container {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 6.7rem;
-    }
-  
-    .logo {
-      display: flex;
-      align-items: center;
-      gap: 18px;
-  
-      &:hover {
-        cursor: pointer;
-      }
-    }
-  
-    .nav-links-container {
-      display: flex;
-      flex-basis: 76%;
-      justify-content: space-between;
-    }
-  
-    .nav-links {
-      display: flex;
-      gap: 40px;
-      flex-basis: 40%;
-    }
-  
-    .nav-link {
-      display: flex;
-      align-items: center;
-      white-space: nowrap;
-    }
-  
-    a {
-      display: flex;
-      align-items: center;
-      font-size: $font-xs;
-      line-height: 34px;
-      color: $dark-purple;
-      font-family: "poppins";
-  
-      &:hover {
-        color: $tertiary;
+  }
+
+  .nav-links-container {
+    display: flex;
+    flex-basis: 76%;
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 40px;
+    flex-basis: 40%;
+  }
+
+  .nav-link {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    font-size: $font-xs;
+    line-height: 34px;
+    color: $dark-purple;
+    font-family: "poppins";
+
+    &:hover {
+      color: $tertiary;
+      stroke: $tertiary;
+
+      .arrow-down {
         stroke: $tertiary;
-  
-        .arrow-down {
-          stroke: $tertiary;
-          transition: $hover-transition;
-        }
-      }
-  
-      transition: $hover-transition;
-    }
-  
-    .cta-btn {
-      background-color: $tertiary;
-      border: $border-thikness solid $tertiary;
-  
-      &:hover {
-        background-color: $color-white;
         transition: $hover-transition;
       }
     }
-  
-    .btn {
-      padding: 10px 30px;
-      color: $color-white;
+
+    transition: $hover-transition;
+  }
+
+  .cta-btn {
+    background-color: $tertiary;
+    border: $border-thikness solid $tertiary;
+
+    &:hover {
+      background-color: $color-white;
+      transition: $hover-transition;
     }
   }
+
+  .btn {
+    padding: 10px 30px;
+    color: $color-white;
+    white-space: nowrap;
+  }   
+}

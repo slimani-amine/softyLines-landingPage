@@ -47,6 +47,13 @@ ul {
 .bg-color-dark {
   background-color: #eeebff; }
 
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    transform: translateY(0); }
+  50% {
+    transform: translateY(-10rem); } }
+
 @media (max-width: 1600px) {
   html {
     font-size: 56.5% !important; }
@@ -319,7 +326,8 @@ ul {
       transition: all 0.25s ease-in-out; }
   .navbar .btn {
     padding: 10px 30px;
-    color: #fff; }
+    color: #fff;
+    white-space: nowrap; }
 
 .corner-design {
   background-color: #28104E;
@@ -400,7 +408,8 @@ ul {
     line-height: 2.5; }
   .hero-section .hero-illustration {
     max-width: 70rem;
-    max-height: 70rem; }
+    max-height: 70rem;
+    animation: MoveUpDown 8s linear infinite; }
   .hero-section a {
     color: #28104E;
     font-size: 2rem;
@@ -457,7 +466,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 2.9rem;
-    transition: all .5s ease; }
+    transition: all 0.5s ease; }
     .got-you-covered-section__top-box__text {
       display: flex;
       flex-direction: column;
@@ -486,9 +495,9 @@ ul {
     padding: 4rem 2.2rem;
     border: 1px solid #FFCF2B;
     border-radius: 32px;
-    transition: all .5s ease; }
+    transition: all 0.5s ease; }
     .got-you-covered-section__bottom-box:hover {
-      box-shadow: #FFCF2B 0px 7px 29px 0px;
+      box-shadow: #ffcf2b 0px 7px 29px 0px;
       transform: translateY(-20px); }
     .got-you-covered-section__bottom-box__num__text {
       font-size: 4.8rem;
@@ -519,14 +528,14 @@ ul {
     flex-direction: column;
     align-items: center; }
     .core-development-container__headings__header {
-      font-family: 'mont-600', sans-serif;
+      font-family: "mont-600", sans-serif;
       color: #542B74;
       font-size: 21px; }
       @media (max-width: 700px) {
         .core-development-container__headings__header {
           font-size: 19px; } }
     .core-development-container__headings__subheader {
-      font-family: 'mont-700', sans-serif;
+      font-family: "mont-700", sans-serif;
       color: #542B74;
       font-size: 36px; }
       @media (max-width: 700px) {
@@ -551,7 +560,7 @@ ul {
       padding: 5.2rem;
       border-radius: 28px;
       box-shadow: 0px 14px 21px 1px rgba(197, 162, 219, 0.17);
-      transition: all .5s ease; }
+      transition: all 0.5s ease; }
       .core-development-container__body__box:hover {
         box-shadow: #A166FF 0px 7px 29px 0px;
         transform: translateY(-20px); }
@@ -590,14 +599,14 @@ ul {
     flex-direction: column;
     align-items: center; }
     .recent-projects-container__headings__header {
-      font-family: 'mont-600', sans-serif;
+      font-family: "mont-600", sans-serif;
       color: #542B74;
       font-size: 21px; }
       @media (max-width: 700px) {
         .recent-projects-container__headings__header {
           font-size: 19px; } }
     .recent-projects-container__headings__subheader {
-      font-family: 'mont-700', sans-serif;
+      font-family: "mont-700", sans-serif;
       color: #542B74;
       font-size: 36px; }
       @media (max-width: 700px) {
@@ -630,14 +639,14 @@ ul {
     flex-direction: column;
     align-items: center; }
     .methodology-container__headings__header {
-      font-family: 'mont-600', sans-serif;
+      font-family: "mont-600", sans-serif;
       color: #542B74;
       font-size: 21px; }
       @media (max-width: 700px) {
         .methodology-container__headings__header {
           font-size: 19px; } }
     .methodology-container__headings__subheader {
-      font-family: 'mont-700', sans-serif;
+      font-family: "mont-700", sans-serif;
       color: #542B74;
       font-size: 36px; }
       @media (max-width: 700px) {
@@ -711,14 +720,14 @@ ul {
     flex-direction: column;
     align-items: center; }
     .technologies-container__headings__header {
-      font-family: 'mont-600', sans-serif;
+      font-family: "mont-600", sans-serif;
       color: #542B74;
       font-size: 21px; }
       @media (max-width: 700px) {
         .technologies-container__headings__header {
           font-size: 19px; } }
     .technologies-container__headings__subheader {
-      font-family: 'mont-700', sans-serif;
+      font-family: "mont-700", sans-serif;
       color: #542B74;
       font-size: 36px; }
       @media (max-width: 700px) {
@@ -739,7 +748,7 @@ ul {
         padding: 1.5rem;
         border-left: 5px solid #e6d2f7;
         text-align: start;
-        transition: all .5s ease; }
+        transition: all 0.5s ease; }
         .technologies-container__body__tabs-container__tab:hover {
           border-left: #28104E solid 5px;
           transform: translateX(-3rem); }

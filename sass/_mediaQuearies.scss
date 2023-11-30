@@ -1,15 +1,5 @@
-$xxl-screen: 2000px;
-$xl-screen: 1600px;
-$lg-screen: 1500px;
-$md-p-screen: 1320px;
-$md-screen: 1200px;
-$sm-screen: 1000px;
-$xs-screen: 700px;
-$xxs-screen: 570px;
-$xxxs-screen: 440px;
 
-
-@media (max-width: $xl-screen) {
+@include xl {
   html {
     font-size: 56.5% !important;
   }
@@ -26,7 +16,7 @@ $xxxs-screen: 440px;
     overflow: auto;
   }
 }
-@media (max-width: $lg-screen) {
+@include lg {
   html {
     font-size: 52% !important;
   }
@@ -49,7 +39,7 @@ $xxxs-screen: 440px;
     width: 80%;
   }
 }
-@media (max-width: $md-p-screen) {
+@include md-p {
   html {
     font-size: 46% !important;
   }
@@ -77,7 +67,7 @@ $xxxs-screen: 440px;
     height: fit-content;
   }
 }
-@media (max-width: $md-screen) {
+@include md {
   html {
     font-size: 40% !important;
   }
@@ -119,7 +109,7 @@ $xxxs-screen: 440px;
   }
 }
 
-@media (max-width: $sm-screen) {
+@include sm {
   .hero-section {
     flex-direction: column-reverse;
   }
@@ -183,7 +173,7 @@ $xxxs-screen: 440px;
   }
 }
 
-@media (max-width: $xs-screen) {
+@include xs {
   html {
     font-size: 36% !important;
   }
@@ -207,8 +197,7 @@ $xxxs-screen: 440px;
     font-size: 40px !important;
   }
 }
-
-@media (max-width: $xxs-screen) {
+@include xxs {
   .navbar .btn {
     font-size: 12px !important;
   }
@@ -265,8 +254,7 @@ $xxxs-screen: 440px;
     align-items: flex-start !important;
   }
 }
-
-@media (max-width: $xxxs-screen) {
+@include xxxs {
   .corner-design {
     width: 111px !important;
     height: 70rem !important;
@@ -308,5 +296,4 @@ $xxxs-screen: 440px;
   .navbar .btn {
     padding: 3px 11px !important;
   }
-  
 }

@@ -1,50 +1,49 @@
 @mixin section-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+  padding-top: 22px;
+  padding-bottom: 70px;
+  line-height: 1.5;
+
+  &__headings {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
     align-items: center;
-    padding-top: 22px;
-    padding-bottom: 70px;
-    line-height: 1.5;
 
-    &__headings {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    &__header {
+      font-family: "mont-600", sans-serif;
+      color: $md-dark-purple;
+      font-size: $font-md;
 
-        &__header {
-            font-family: 'mont-600', sans-serif;
-            color: $md-dark-purple;
-            font-size: $font-md;
-
-            @media(max-width: $xs-screen) {
-                font-size: $font-sm;
-            }
-        }
-
-        &__subheader {
-            font-family: 'mont-700', sans-serif;
-            color: $md-dark-purple;
-            font-size: $font-xxl;
-
-            @media(max-width: $xs-screen) {
-                font-size: $font-xl;
-            }
-
-        }
+      @include xs {
+        font-size: $font-sm;
+      }
     }
+
+    &__subheader {
+      font-family: "mont-700", sans-serif;
+      color: $md-dark-purple;
+      font-size: $font-xxl;
+
+      @include xs {
+        font-size: $font-xl;
+      }
+    }
+  }
 }
 
 @mixin card {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    border-radius: 1.3rem;
-    padding: 7.5px 7.5px 3rem 7.5px;
-    max-width: 44rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 1.3rem;
+  padding: 7.5px 7.5px 3rem 7.5px;
+  max-width: 44rem;
 
-    &:hover {
-        box-shadow: $box-shadow-light;
-        transition: $hover-transition;
-    }
+  &:hover {
+    box-shadow: $box-shadow-light;
+    transition: $hover-transition;
+  }
 }
