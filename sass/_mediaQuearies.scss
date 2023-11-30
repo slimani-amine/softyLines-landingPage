@@ -1,4 +1,3 @@
-
 @include xl {
   html {
     font-size: 56.5% !important;
@@ -255,6 +254,12 @@
   }
 }
 @include xxxs {
+  .floating-cta-container__box__circle {
+    width: 7rem;
+  }
+  img {
+    max-width: 80%;
+  }
   .corner-design {
     width: 111px !important;
     height: 70rem !important;
