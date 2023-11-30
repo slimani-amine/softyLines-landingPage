@@ -1,0 +1,113 @@
+.cta-section-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    &__title {
+        font-size: 35px;
+        font-family: "mont-700", sans-serif;
+        color: $color-black;
+        line-height: 2;
+        margin-top: 80px;
+    }
+
+    &__subtitle {
+        font-size: $font-xs;
+        font-family: "mont-600";
+        color: #6c6c6c;
+        line-height: 2;
+    }
+
+    &__cta-btn {
+        color: $color-white;
+        font-size: $font-sm;
+        font-family: "mont-600";
+        background: $background-purpel-gr;
+        border: $border-thikness solid #b485ff;
+        padding: 20px 50px;
+        margin-top: 2rem;
+
+        &:hover {
+            background: none;
+            background-color: #fff;
+            color: #b485ff;
+            transition: $hover-transition;
+        }
+    }
+}
+
+.footer-hr {
+    width: 60%;
+    display: flex;
+    align-self: center;
+    margin: 3rem auto;
+    border-top: $border-thikness solid #7b61ff;
+}
+
+.footer-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    padding-bottom: 6rem;
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        &__img {
+            height: 47px;
+            width: 47px;
+        }
+
+        &__text {
+            height: 47px;
+            width: 140px;
+        }
+    }
+
+    &__linkes-container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 7.6rem;
+        width: 100%;
+
+        &__links {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+
+            &__title {
+                font-family: "mont-700", sans-serif;
+                font-size: $font-md;
+                color: $color-black;
+                line-height: 2;
+            }
+
+            &__link {
+                font-family: "mont-700", sans-serif;
+                font-size: $font-xs;
+                color: #4e4e4e;
+                line-height: 2;
+
+                &:hover {
+                    color: $secondary;
+                }
+            }
+        }
+    }
+}
+
+.footer-copyright {
+    background-color: #7b61ff;
+
+    &__text {
+        color: $color-white;
+        text-align: center;
+        font-size: 20px;
+        font-family: "mont-600", sans-serif;
+        line-height: 3;
+    }
+}

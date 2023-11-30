@@ -1,0 +1,39 @@
+.card {
+    @include card;
+
+    &__image-container {
+        overflow: hidden;
+
+        &__image {
+            width: 100%;
+        }
+    }
+
+    &__text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+
+        &__top-text {
+            font-family: "mont-600", sans-serif;
+            font-size: $font-xxs;
+            color: #7c1dc9;
+        }
+
+        &__header {
+            font-family: "mont-700", sans-serif;
+            font-size: $font-lg;
+            color: $color-black;
+            margin-top: 1rem;
+        }
+
+        &__description {
+            font-family: "mont-600", sans-serif;
+            font-size: $font-xs;
+            color: rgba(87, 87, 87, 1);
+            line-height: 2.3;
+            text-align: start;
+        }
+    }
+}
