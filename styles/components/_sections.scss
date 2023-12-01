@@ -164,10 +164,10 @@
     border-radius: $border-radius-box-lg;
     transition: all 0.5s ease;
 
-    &:hover {
-      box-shadow: #ffcf2b 0px 7px 29px 0px;
-      transform: translateY(-20px);
-    }
+    // &:hover {
+    //   box-shadow: #ffcf2b 0px 7px 29px 0px;
+    //   transform: translateY(-20px);
+    // }
 
     &__num__text {
       font-size: 4.8rem;

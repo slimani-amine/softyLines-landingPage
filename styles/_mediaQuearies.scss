@@ -56,6 +56,11 @@
   }
   .got-you-covered-section__bottom-boxes {
     overflow: auto;
+    transition: none;
+    &:hover {
+      box-shadow: none;
+      transform: none;
+    }
   }
   .got-you-covered-section__top-box {
     min-width: 47rem;
@@ -90,6 +95,9 @@
     .container {
       width: 100%;
     }
+  }
+  .floating-cta-container__box__circle {
+    height: 6rem;
   }
   .got-you-covered-section__top-boxes {
     gap: 8rem !important;
@@ -145,6 +153,7 @@
       }
     }
   }
+
   div.methodology-container {
     padding-bottom: 40rem !important;
   }
@@ -258,7 +267,7 @@
     width: 7rem;
   }
   img {
-    max-width: 80%;
+    max-width: 90%;
   }
   .corner-design {
     width: 111px !important;
@@ -279,6 +288,9 @@
   }
   .hero-section .hero-illustration {
     max-width: 50rem !important;
+  }
+  .floating-cta-container__box__text {
+    font-size: 14px !important;
   }
   .core-development-container__body {
     grid-template-columns: 1fr !important;
@@ -301,4 +313,10 @@
   .navbar .btn {
     padding: 3px 11px !important;
   }
+  .floating-cta-container__box__icon {
+    width: 60px;
+    display: flex;
+    justify-content: space-around;
+  }
 }
+
