@@ -101,7 +101,7 @@ ul {
       box-shadow: none;
       transform: none; }
   .got-you-covered-section__top-box {
-    min-width: 47rem;
+    min-width: 49rem;
     height: fit-content; }
   .got-you-covered-section__bottom-box {
     min-width: 34rem;
@@ -132,7 +132,7 @@ ul {
   .core-development-container__body__illustration {
     grid-row: 1/2 !important;
     grid-column: 1/-1 !important;
-    width: 50%; }
+    width: 90%; }
   .core-development-container__body {
     grid-template-columns: 1fr 1fr !important;
     width: 90%; }
@@ -179,10 +179,19 @@ ul {
     align-items: center !important; }
   .core-development-container__cta {
     margin-top: 3rem; }
+  .got-you-covered__heading-container__subheader {
+    font-size: 23px !important; }
   .recent-projects-container .card {
     border: 1px solid #f8f7ff !important;
     box-shadow: 0 0 2px #dedede;
-    max-width: 62rem !important; } }
+    max-width: 62rem !important; }
+  .core-development-container__headings__subheader {
+    font-size: 25px;
+    text-align: center; }
+  .recent-projects-container__headings__subheader {
+    font-size: 25px; }
+  .footer-copyright__text {
+    font-size: 17px !important; } }
 
 @media (max-width: 700px) {
   html {
@@ -196,16 +205,27 @@ ul {
   .hero-section .hero-title {
     font-size: 24px !important; }
   .hero-section .hero-desciption {
-    font-size: 20px !important;
+    font-size: 17px !important;
     line-height: 1.8 !important; }
   .hero-section .hero-heading {
-    font-size: 40px !important; } }
+    font-size: 40px !important; }
+  .technologies-container__body__img {
+    width: 100%; } }
 
 @media (max-width: 570px) {
+  .recent-projects-container__headings__subheader {
+    font-size: 23px !important; }
+  .got-you-covered-section__top-box__text__header {
+    font-size: 16px !important;
+    white-space: nowrap; }
+  .got-you-covered-section__top-box__text__description {
+    font-size: 14px !important; }
+  .got-you-covered-section__top-box__text {
+    gap: 2rem !important; }
   .navbar .btn {
     font-size: 12px !important; }
   .navbar .container {
-    gap: 1rem !important; }
+    gap: 3rem !important; }
   .logo-text img {
     height: 22px; }
   .logo-img img {
@@ -246,7 +266,7 @@ ul {
   .floating-cta-container__box__circle {
     width: 7rem; }
   img {
-    max-width: 90%; }
+    max-width: 100%; }
   .corner-design {
     width: 111px !important;
     height: 70rem !important; }
@@ -496,7 +516,7 @@ ul {
       .got-you-covered-section__top-box__text__description {
         font-size: 16px;
         font-family: "mont-600", sans-serif;
-        color: #848484;
+        color: #84848491;
         line-height: 2; }
     .got-you-covered-section__top-box:hover {
       box-shadow: #A166FF 0px 7px 29px 0px;
@@ -522,7 +542,7 @@ ul {
     .got-you-covered-section__bottom-box__text {
       font-size: 16px;
       font-family: "mont-7OO", sans-serif;
-      color: #848484;
+      color: #84848491;
       line-height: 1.5;
       margin-top: 1rem; }
   .got-you-covered-section .got-you-covered-section__bottom-box {
@@ -786,7 +806,7 @@ ul {
   align-items: center;
   gap: 3rem;
   padding-top: 8rem;
-  padding-bottom: 5rem; }
+  padding-bottom: 10rem; }
   .partners-section-container__title {
     font-family: "mont-800", sans-serif;
     font-size: 36px;
@@ -856,19 +876,19 @@ ul {
   .footer-content-container__linkes-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    gap: 7.6rem;
-    width: 100%; }
+    gap: 8.6rem;
+    width: 107%; }
     .footer-content-container__linkes-container__links {
       display: flex;
       flex-direction: column;
-      gap: 1.5rem; }
+      gap: 2.5rem; }
       .footer-content-container__linkes-container__links__title {
         font-family: "mont-700", sans-serif;
         font-size: 21px;
         color: #000;
         line-height: 2; }
       .footer-content-container__linkes-container__links__link {
-        font-family: "mont-700", sans-serif;
+        font-family: "mont-600", sans-serif;
         font-size: 16px;
         color: #4e4e4e;
         line-height: 2; }

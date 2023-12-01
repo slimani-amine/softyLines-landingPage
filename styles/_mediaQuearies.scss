@@ -63,7 +63,7 @@
     }
   }
   .got-you-covered-section__top-box {
-    min-width: 47rem;
+    min-width: 49rem;
     height: fit-content;
   }
   .got-you-covered-section__bottom-box {
@@ -105,7 +105,7 @@
   .core-development-container__body__illustration {
     grid-row: 1/2 !important;
     grid-column: 1/-1 !important;
-    width: 50%;
+    width: 90%;
   }
   .core-development-container__body {
     grid-template-columns: 1fr 1fr !important;
@@ -173,11 +173,23 @@
   .core-development-container__cta {
     margin-top: 3rem;
   }
-
+  .got-you-covered__heading-container__subheader {
+    font-size: 23px !important;
+  }
   .recent-projects-container .card {
     border: 1px solid #f8f7ff !important;
     box-shadow: 0 0 2px #dedede;
     max-width: 62rem !important;
+  }
+  .core-development-container__headings__subheader {
+    font-size: 25px;
+    text-align: center;
+  }
+  .recent-projects-container__headings__subheader {
+    font-size: 25px;
+  }
+  .footer-copyright__text {
+    font-size: 17px !important;
   }
 }
 
@@ -198,19 +210,35 @@
     font-size: 24px !important;
   }
   .hero-section .hero-desciption {
-    font-size: 20px !important;
+    font-size: 17px !important;
     line-height: 1.8 !important;
   }
   .hero-section .hero-heading {
     font-size: 40px !important;
   }
+  .technologies-container__body__img {
+    width: 100%;
+  }
 }
 @include xxs {
+  .recent-projects-container__headings__subheader {
+    font-size: 23px !important;
+  }
+  .got-you-covered-section__top-box__text__header {
+    font-size: 16px !important;
+    white-space: nowrap;
+  }
+  .got-you-covered-section__top-box__text__description {
+    font-size: 14px !important;
+  }
+  .got-you-covered-section__top-box__text {
+    gap: 2rem !important;
+  }
   .navbar .btn {
     font-size: 12px !important;
   }
   .navbar .container {
-    gap: 1rem !important;
+    gap: 3rem !important;
   }
   .logo-text img {
     height: 22px;
@@ -267,7 +295,7 @@
     width: 7rem;
   }
   img {
-    max-width: 90%;
+    max-width: 100%;
   }
   .corner-design {
     width: 111px !important;
@@ -319,4 +347,3 @@
     justify-content: space-around;
   }
 }
-
