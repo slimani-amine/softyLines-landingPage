@@ -8,8 +8,8 @@ $breakpoints: (
   "md-p": 1320px,
   "lg": 1500px,
   "xl": 1600px,
-  "xxl": 1600px,
-  "xxxl": 1750px,
+  "xxl": 1700px,
+  "xxxl": 1850px,
 );
 @mixin xxxxs {
   @media (max-width: map-get($breakpoints, "xxxxs")) {

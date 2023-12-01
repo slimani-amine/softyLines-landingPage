@@ -1,4 +1,18 @@
+@include xxl {
+  .navbar .container {
+    gap: 4.7rem !important;
+  }
+  .navbar .nav-links {
+    gap: 23px !important;
+  }
+}
 @include xl {
+  .navbar .container {
+    gap: 4.7rem !important;
+  }
+  .navbar .nav-links {
+    gap: 23px !important;
+  }
   html {
     font-size: 56.5% !important;
   }
@@ -16,6 +30,9 @@
   }
 }
 @include lg {
+  .navbar .nav-links {
+    gap: 14px !important;
+  }
   html {
     font-size: 52% !important;
   }

@@ -54,7 +54,17 @@ ul {
   50% {
     transform: translateY(-10rem); } }
 
+@media (max-width: 1700px) {
+  .navbar .container {
+    gap: 4.7rem !important; }
+  .navbar .nav-links {
+    gap: 23px !important; } }
+
 @media (max-width: 1600px) {
+  .navbar .container {
+    gap: 4.7rem !important; }
+  .navbar .nav-links {
+    gap: 23px !important; }
   html {
     font-size: 56.5% !important; }
   .container {
@@ -68,6 +78,8 @@ ul {
     overflow: auto; } }
 
 @media (max-width: 1500px) {
+  .navbar .nav-links {
+    gap: 14px !important; }
   html {
     font-size: 52% !important; }
   .corner-design {
